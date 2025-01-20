@@ -5,7 +5,7 @@ public class GameLauncher {
         // 1. 야생 포켓몬 더미데이터 생성
         // 2. 트레이너 더미데이터 생성
         // 3. 포켓몬 사전 더미데이터 생성 (PokeDex 내부)
-
+        //1
         Pokemon wildPokemon = new Pokemon("star",50,8,"water");
         System.out.println("Wild Pokemon: " + wildPokemon.getPokemonName() + " (Type: " + wildPokemon.getType() + ", HP: " + wildPokemon.getHP() + ", Level: " + wildPokemon.getLevel() + ")");
         Pokemon pokemon1 = new Pokemon("thunder",80,15,"thunder");
